@@ -1,0 +1,219 @@
+                                              :root {
+                                                 font-size: 16px;
+                                             }
+                                             
+                                             body {
+                                                 background: #040406;
+                                                 margin: 0;
+                                                 padding: 0;
+                                                 box-sizing: border-box;
+                                                 display: flex;
+                                                 font-family: 'Ubuntu', sans-serif;
+                                                 font-weight: bold;
+                                                 font-size: 3vh;
+                                             }
+                                             
+                                             body::-webkit-scrollbar-track {
+                                                 background-color: black;
+                                             }
+                                             
+                                             body::-webkit-scrollbar-thumb {
+                                                 background-color: blueviolet;
+                                             }
+                                             
+                                             .navbar {
+                                                 color: #BBAAB9;
+                                                 font-family: 'Ubuntu', sans-serif;
+                                                 font-weight: bold;
+                                                 width: 25rem;
+                                                 height: 100vh;
+                                             }
+                                             
+                                             .navLink {
+                                                 text-decoration: none;
+                                                 color: #BBAAB9;
+                                                 display: flex;
+                                                 flex-direction: row;
+                                                 padding: 0rem 0rem 3rem 0rem;
+                                             }
+                                             
+                                             .bi {
+                                                 margin: 0rem 0.5rem 0rem 0rem;
+                                             }
+                                             
+                                             .navul {
+                                                 list-style: none;
+                                                 display: flex;
+                                                 flex-direction: column;
+                                                 margin-top: 3rem;
+                                             }
+                                             
+                                             .disappear {
+                                                 display: none;
+                                             }
+                                             
+                                             .bi:hover {
+                                                 background-color: #0fecdace;
+                                                 border-radius: 60%;
+                                             }
+                                             
+                                             .bi:hover+span {
+                                                 display: inline;
+                                                 transition: 0.2s;
+                                             }
+                                             
+                                             .bi {
+                                                 height: 1.4rem;
+                                                 width: 1.4rem;
+                                                 padding: 0.8rem;
+                                             }
+                                             
+                                             .main {
+                                                 width: 222vh;
+                                                 height: 100vh;
+                                                 /* border: 2px solid white; */
+                                                 display: flex;
+                                                 margin: 1vh;
+                                                 flex-wrap: wrap;
+                                                 padding: 0;
+                                                 position: relative;
+                                                 top: 8rem;
+                                             }
+                                             
+                                             .box {
+                                                 width: 25%;
+                                                 height: 35%;
+                                                 /* border: 2px solid red; */
+                                                 display: flex;
+                                                 align-items: center;
+                                                 justify-content: center;
+                                                 border-radius: 1rem;
+                                                 box-shadow: -1rem 0 3rem rgb(22, 22, 22);
+                                                 color: white;
+                                             }
+                                             
+                                             #calendar {
+                                                 color: white;
+                                                 display: flex;
+                                                 flex-direction: column;
+                                                 font-size: 2vh;
+                                             }
+                                             
+                                             .days {
+                                                 display: grid;
+                                                 grid-template-columns: repeat(7, 1fr);
+                                                 gap: 8px;
+                                             }
+                                             
+                                             .dates {
+                                                 display: grid;
+                                                 grid-template-columns: repeat(7, 1fr);
+                                                 gap: 12px;
+                                             }
+                                             
+                                             #abc {
+                                                 /* border-radius: 50%; */
+                                                 background-color: rgba(96, 248, 233, 0.8);
+                                                 width: 1.2rem;
+                                                 height: 1.2rem;
+                                             }
+                                             
+                                             #bcd {
+                                                 /* border-radius: 50%; */
+                                                 background-color: rgba(53, 247, 166, 0.8);
+                                                 width: 1.2rem;
+                                                 height: 1.2rem;
+                                             }
+                                             
+                                             #cde {
+                                                 background-color: rgba(250, 95, 186, 0.8);
+                                                 width: 1.2rem;
+                                                 height: 1.2rem;
+                                             }
+                                             
+                                             .boxv {
+                                                 width: 25%;
+                                                 height: 93%;
+                                                 /* border: 2px solid red; */
+                                                 display: flex;
+                                                 /* align-items: center; */
+                                                 justify-content: center;
+                                                 border-radius: 1rem;
+                                                 box-shadow: -1rem 0 3rem rgb(22, 22, 22);
+                                                 color: white;
+                                             }
+                                             
+                                             .box:hover {
+                                                 transform: translate(0px, -1rem);
+                                             }
+                                             
+                                             .boxv:hover {
+                                                 transform: translate(0px, -1rem);
+                                             }
+                                             
+                                             #project-tracker {
+                                                 width: 68rem;
+                                             }
+                                             
+                                             .header {
+                                                 position: absolute;
+                                                 left: 17rem;
+                                                 color: white;
+                                                 margin-bottom: 16rem;
+                                             }
+                                             
+                                             #email {
+                                                 flex-direction: column;
+                                                 ;
+                                             }
+                                             
+                                             .email-1 {
+                                                 width: 100%;
+                                                 height: 7rem;
+                                                 background-color: rgb(0, 0, 0);
+                                                 color: rgb(255, 255, 255);
+                                                 /* border: 2px solid red; */
+                                             }
+                                             
+                                             #finance {
+                                                 align-items: unset;
+                                                 display: grid;
+                                                 grid-template-columns: repeat(3, 1fr);
+                                                 padding-top: 1rem;
+                                                 /* height: 100%; */
+                                                 color: white;
+                                                 height: 100vh;
+                                                 /* width: 35vw; */
+                                                 max-width: 325px;
+                                                 position: relative;
+                                                 margin-top: 3%;
+                                                 min-width: 283px;
+                                                 background-color: black;
+                                                 color: white;
+                                             }
+                                             
+                                             #finance:hover {
+                                                 background-color: black;
+                                             }
+                                             
+                                             .last-expenses1 {
+                                                 color: rgb(31, 225, 231);
+                                             }
+                                             
+                                             .last-expenses2 {
+                                                 font-weight: normal;
+                                             }
+                                             
+                                             .rate1 {
+                                                 font-weight: normal;
+                                             }
+                                             
+                                             #documents {
+                                                 color: white;
+                                             }
+                                             
+                                             .boxc {
+                                                 color: white;
+                                                 /* border: 2px solid white; */
+                                                 height: 80%;
+                                             }
